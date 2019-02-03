@@ -1,0 +1,60 @@
+/* The sorrounding chart box */
+.chartbox {
+	display:block;
+	height:700px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	color:#333;
+	text-align: center;
+	margin-right:auto;
+	margin-left:auto;
+	margin-bottom:4px;
+	border:1px solid #333;
+	overflow:hidden;
+	background-color:#f9f9f9;
+	padding:4px;
+}
+.chartbox h2{
+	font-size: 11px;
+	padding:0px;
+	margin:10px 0px 0px 0px;
+}
+/* Vertical chart elements */
+.barv{
+	margin: 2px;
+	display:inline-block;
+	float:right;
+}
+.barvvalue {
+	padding:0px;
+	margin:0px;
+	font-size: 11px;
+	text-align: center;
+}
+/* Horizontal chart elements */
+.barh{
+	margin: 4px;
+	text-align:left;
+	clear:both;
+}
+.barhvalue {
+	padding:0px;
+	margin:0px 5px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	text-align: left;
+	overflow:hidden;
+	float:left;
+}
+.barhcaption {
+	padding:0px;
+	margin:0px 5px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	text-align: right;
+	overflow:hidden;
+	float:left;
+}
+.barhimage {
+    float:left;
+}

@@ -1,0 +1,375 @@
+/*
+    DEMO STYLE
+*/
+div,ul,li,a,span,font,td,tr,table,h1, h2, h3, h4, h5, h6,tr,ol{
+    direction:rtl
+}
+body {
+    font-family: sans;
+    direction: rtl;
+}
+
+
+.container1{
+	height:200px;
+	width:500px;
+	margin-right:700px;
+	margin-top:20px;
+	margin-bottom:800px;
+	position: absolute;
+	
+}
+
+.container2{
+	height:200px;
+	width:500px;
+	margin-right:-350px;
+	margin-top:0px;
+	margin-bottom:1000px;
+	position: absolute;	
+}
+
+.container3{
+	height:200px;
+	width:500px;
+	margin-right:-350px;
+	margin-top:0px;
+	margin-bottom:1000px;
+	position: absolute;	
+}
+
+
+.main
+{
+  width:700px;
+  height:1200px;
+  /*background-color:#ffd5b3;*/
+  background-color:#fff;
+  float:left;
+}
+
+
+.txt
+{
+  width:200px;
+  background-color:#fff;
+  border-style: solid;
+  border-color: black;
+  margin:5px;
+}
+.txtarea
+{
+  width:400px;
+  height:250px;
+}
+.exit:hover
+{
+  font-size:20px;
+}
+
+@font-face {
+	font-family: sans;
+    src: url(../font/IRANSansWeb-Medium.woff);
+   
+}
+
+body, html , p,a,div,input,button,textarea,h6,h5,h4,h3,h2,h1 {
+	font-family: sans;
+	
+}
+
+td {border:0px;  padding: 5px; cursor: pointer;}
+
+.selected {
+    background-color: brown;
+    color: #FFF;
+}
+
+
+
+
+p {
+    font-family: sans;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+
+h5{
+	
+	text-align: right;
+	direction:rtl;
+}
+
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.btn-primary{
+	margin: 5px;
+}
+
+.navbar {
+    padding: 10px;
+    border: none;
+    line-height: 36px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    background-color: #eee;
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 50px 0;
+}
+
+
+#table td{
+
+    text-align: center;
+    direction: rtl;
+}
+
+#img{
+
+    margin: 0 130px ;
+}
+
+#img1{
+
+    margin: 0 70px ;
+}
+#index-sub{
+    background-color:#eee ;
+    margin-top: 15px;
+}
+.title h6{
+
+    font-size: 16px;
+}
+
+
+.title img{
+
+    font-size: 16px;
+}
+
+.alert-heading{color:inherit}
+.alert-link{font-weight:700}
+.alert-dismissible{padding-right:4rem}
+.alert-dismissible .close{position:absolute;top:0;right:0;padding:.75rem 1.25rem;color:inherit}
+.alert-primary{color:#004085;background-color:#cce5ff;border-color:#b8daff}
+.alert-primary hr{border-top-color:#9fcdff}
+.alert-primary .alert-link{color:#002752}
+.alert-secondary{color:#383d41;background-color:#e2e3e5;border-color:#d6d8db}
+.alert-secondary hr{border-top-color:#c8cbcf}
+.alert-secondary .alert-link{color:#202326}
+.alert-success{color:#155724;background-color:#d4edda;border-color:#c3e6cb}
+.alert-success hr{border-top-color:#b1dfbb}
+.alert-success .alert-link{color:#0b2e13}
+.alert-info{color:#0c5460;background-color:#d1ecf1;border-color:#bee5eb}
+.alert-info hr{border-top-color:#abdde5}
+.alert-info .alert-link{color:#062c33}
+.alert-warning{color:#856404;background-color:#fff3cd;border-color:#ffeeba}
+.alert-warning hr{border-top-color:#ffe8a1}
+.alert-warning .alert-link{color:#533f03}
+.alert-danger{color:#721c24;background-color:#f8d7da;border-color:#f5c6cb}
+.alert-danger hr{border-top-color:#f1b0b7}
+.alert-danger .alert-link{color:#491217}
+.alert-light{color:#818182;background-color:#fefefe;border-color:#fdfdfe}
+.alert-light hr{border-top-color:#ececf6}
+.alert-light .alert-link{color:#686868}
+.alert-dark{color:#1b1e21;background-color:#d6d8d9;border-color:#c6c8ca}
+.alert-dark hr{border-top-color:#b9bbbe}
+.alert-dark .alert-link{color:#040505}
+
+
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    z-index: 999;
+    background: #7386D5;
+    color: #fff;
+    transition: all 0.3s;
+    overflow-y: auto;
+}
+
+#sidebar.makhfi {
+    right: -260px;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #6d7fcc;
+}
+
+
+
+#sidebar .sidebar-header1 {
+    padding: 20px;
+    background: #5067d5;
+}
+
+
+
+
+#sidebar ul.components {
+    padding: 20px 0;
+	text-align: right;
+    border-bottom: 1px white dashed;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1em;
+    color:#fff;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    color: #7386D5;
+    background: #fff;
+    text-decoration: none;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: #fff;
+    background: #6d7fcc;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #6d7fcc;
+}
+
+ul.CTAs {
+    padding: 20px;
+}
+
+ul.CTAs a {
+    text-align: center;
+    font-size: 0.9em !important;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+a.download {
+    background: #fff;
+    color: #7386D5;
+}
+
+a.article,
+a.article:hover {
+    background: #6d7fcc !important;
+    color: #fff !important;
+}
+
+#sidebarCollapse {
+    float: left;
+}
+
+.card {
+    border: 1px solid #999;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+input.main_date_picker {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ccc !important;
+}
+
+    /* ---------------------------------------------------
+        CONTENT STYLE
+    ----------------------------------------------------- */
+
+#content {
+    padding: 20px;
+    transition: all 0.3s;
+    overflow: hidden;
+    margin-right: 250px;
+}
+
+#content.goshad {
+    margin-right: 0;
+}
+
+#content.active {
+    width: 100%;
+}
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+    #content {
+        width: 100%;
+    }
+    #content.active {
+        width: calc(100% - 250px);
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+}
+/*----------------------------------------------------
+	Result Table
+----------------------------------------------------*/
